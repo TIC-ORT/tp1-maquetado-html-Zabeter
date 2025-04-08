@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto{
+
+    color: blue;
+
+}
+
+.fondo{
+
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+.upperpart{
+
+    background-color: white;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar{
+
+    background-color: red;
+    width: 300px;
+    height: 50px;
+}
+
+.midlepart{
+    background-color: royalblue;
+    width: 100vw;
+    height: 30vh;
+}
