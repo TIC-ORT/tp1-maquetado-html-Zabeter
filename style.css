@@ -65,12 +65,13 @@
 
 .midlepart{
     background-color: royalblue;
+    display: flex;
     width: 100vw;
     height: 50vh;
 }
 
 .midleshortleft{
-    background-color: black;
+    background-color: royalblue;
     width: 35vw;
     height: 50vh;
     display: flex;
@@ -85,36 +86,61 @@
     height: 225px;
     margin-right: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: left;
     align-items: flex-start;
 }
 
 
-.texto1 {
-    background-color: chartreuse;
+.texto {
     width: 225px;
-    height: 60px;
+    height: 40px;
     display: flex;
     justify-content: left;
     align-items: flex-start;
 }
 
-.cajapunto1 {
-    background-color: black;
-    width: 30px;
-    height: 30px;
-    margin-top: 15px;
+.cajapunto {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
     margin-left: 30px;
-
-
 }
-.cajapunto2 {
-    background-color: black;
-    width: 120px;
-    height: 30px;
-    margin-top: 15px;
+.cajatexto {
+    background-color: white;
+    width: 130px;
+    height: 20px;
+    margin-top: 30px;
     margin-left: 15px;
 }
 .midlelongright{
-background-color: chartreuse;
+    background-color: royalblue;
+    width: 65vw;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    background-color: black;
+    height: 40px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.subtitulo1{
+    background-color: white;
+    height: 10px;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.subtitulo2{
+    background-color: white;
+    height: 10px;
+    width: 300px;
+    margin-top: 15px;
 }
