@@ -3,33 +3,41 @@
     padding: 0;
 }
 
-.texto{
-
-    color: blue;
-
-}
-
-.fondo{
-
-    background-color: red;
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-}
-
 .upperpart{
 
     background-color: white;
     width: 100vw;
     height: 40vh;
+}
+
+.arribauppertpart {
+
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.searchbar{
+
+    background-color: red;
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.searchboton{
+    background-color: black;
+    height: 70px;
+    width: 70px;
 }
 .textosearchbar{
 
-    background-color: gray;
-    width: 300px;
+    background-color: white;
+    width: 400px;
     height: 20px;
     display: flex;
     justify-content: flex-start;
@@ -38,49 +46,75 @@
     margin-right: 20px;
 }
 
-.textosupperpart{
-    background-color: gray;
-    width: 280px;
-    height: 20px;
-    margin: 10px;
-}
-
-
-.searchbar{
-
-    background-color: red;
-    width: 350px;
-    height: 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-    margin-bottom: 60px;
-}
-
-.midlepart{
-    background-color: royalblue;
-    width: 100vw;
-    height: 30vh;
-}
-
-.searchboton{
-    background-color: black;
-    height: 50px;
-    width: 50px;
-}
-
-.arribauppertpart {
-
-    background-color: white;
-    width: 100vw;
-    height: 20vh;
-
-}
-
 .abajoupperpart {
 
     background-color: white;
     width: 100vw;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.textosupperpart{
+    background-color: gray;
+    width: 240px;
+    height: 20px;
+    margin: 40px;
+}
+
+.midlepart{
+    background-color: royalblue;
+    width: 100vw;
+    height: 50vh;
+}
+
+.midleshortleft{
+    background-color: black;
+    width: 35vw;
+    height: 50vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.midlecaja{
+    background-color: cadetblue;
+    width: 225px;
+    height: 225px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+
+.texto1 {
+    background-color: chartreuse;
+    width: 225px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.cajapunto1 {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+
+
+}
+.cajapunto2 {
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.midlelongright{
+background-color: chartreuse;
 }
