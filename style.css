@@ -158,8 +158,8 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: left;
+    align-items: flex-start;
 }
 
 .articulo2 {
@@ -167,27 +167,23 @@
     width: 30vw;
     height: 70vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.articulo3 {
-    background-color: white;
-    width: 35vw;
-    height: 70vh;
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
+.articulo3{
+    background-color: white;
+    width: 35vw;
+    height: 70vh;
+}
+
 .cuadrado1{
-    margin-top: 40px;
-    margin-left: 200px;
+    margin-left: 260px;
+    margin-top: 71px;
     background-color: red;
     width: 225px;
     height: 225px;
-    margin-right: 50px;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -203,7 +199,7 @@
 }
 
 .texto1{
-    background-color: gray;
+    background-color: white;
     margin-left: 35px;
     margin-top: 15px;
     width: 150px;
@@ -211,7 +207,7 @@
 }
 
 .texto2{
-    background-color: gray;
+    background-color: white;
     margin-left: 35px;
     margin-top: 15px;
     width: 100px;
@@ -222,13 +218,86 @@
     background-color: royalblue;
     width: 225px;
     height: 225px;
-    margin-bottom: 120px;
+    margin-top: 71px;
 }
 
 .cuadrado3{
     background-color: orange;
-    margin-bottom: 120px;
-    margin-left: 50px;
+    margin-top: 71px;
+    margin-left: 40px;
     width: 225px;
     height: 225px;
+}
+
+.titulo2{
+    background-color: black;
+    margin-left: 260px;
+    margin-top: 25px;
+    width: 225px;
+    height: 15px;
+
+}
+
+.texto3{
+    background-color: gray;
+    margin-left: 260px;
+    margin-top: 20px;
+    width: 225px;
+    height: 15px;
+}
+
+.texto4{
+    background-color: gray;
+    margin-left: 260px;
+    margin-top: 20px;
+    width: 150px;
+    height: 15px;
+}
+
+.titulo3{
+    background-color: black;
+    margin-top: 25px;
+    width: 225px;
+    height: 15px;
+
+}
+
+.texto5{
+    background-color: gray;
+    margin-top: 20px;
+    width: 225px;
+    height: 15px;
+}
+
+.texto6{
+    background-color: gray;
+    margin-right: 75px;
+    margin-top: 20px;
+    width: 150px;
+    height: 15px;
+}
+
+.titulo4{
+    background-color: black;
+    margin-left: 40px;
+    margin-top: 25px;
+    width: 225px;
+    height: 15px;
+
+}
+
+.texto7{
+    background-color: gray;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 225px;
+    height: 15px;
+}
+
+.texto8{
+    background-color: gray;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 150px;
+    height: 15px;
 }
