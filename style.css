@@ -7,7 +7,7 @@
 
     background-color: white;
     width: 100vw;
-    height: 40vh;
+    height: 45vh;
 }
 
 .arribauppertpart {
@@ -22,7 +22,8 @@
 }
 .searchbar{
 
-    background-color: red;
+    background-color: rgb(255, 153, 120);
+    margin-top: 80px;
     width: 500px;
     height: 70px;
     display: flex;
@@ -30,7 +31,7 @@
     align-content: center;
 }
 .searchboton{
-    background-color: black;
+    background-color: rgb(101, 106, 115);
     height: 70px;
     width: 70px;
 }
@@ -57,21 +58,22 @@
 
 }
 .textosupperpart{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     width: 240px;
     height: 20px;
-    margin: 40px;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .midlepart{
-    background-color: royalblue;
     display: flex;
     width: 100vw;
     height: 50vh;
 }
 
 .midleshortleft{
-    background-color: royalblue;
+    background-color: rgb(196, 237, 241);;
     width: 35vw;
     height: 50vh;
     display: flex;
@@ -81,7 +83,7 @@
 }
 
 .midlecaja{
-    background-color: cadetblue;
+    background-color: rgb(145, 211, 217);
     width: 225px;
     height: 225px;
     margin-right: 50px;
@@ -101,7 +103,7 @@
 }
 
 .cajapunto {
-    background-color: blue;
+    background-color: rgb(196, 237, 241);;
     width: 20px;
     height: 20px;
     margin-top: 30px;
@@ -115,34 +117,36 @@
     margin-left: 15px;
 }
 .midlelongright{
-    background-color: royalblue;
+    background-color: rgb(196, 237, 241);;
     width: 65vw;
     height: 50vh;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
 }
 
 .titulo{
-    background-color: black;
+    background-color: rgb(101, 106, 115);
     height: 40px;
-    width: 700px;
-    margin-top: 40px;
+    width: 609px;
+    margin-top: 61px;
+    margin-left: 117px;
 }
 
 .subtitulo1{
     background-color: white;
     height: 10px;
-    width: 700px;
-    margin-top: 15px;
+    width: 609px;
+    margin-top: 25px;
+    margin-left: 117px;
 }
 
 .subtitulo2{
     background-color: white;
     height: 10px;
-    width: 500px;
-    margin-top: 15px;
+    width: 409px;
+    margin-top: 25px;
+    margin-left: 215px;
 }
 
 .bottompart{
@@ -181,7 +185,7 @@
 .cuadrado1{
     margin-left: 260px;
     margin-top: 71px;
-    background-color: red;
+    background-color: rgb(255, 153, 120);
     width: 225px;
     height: 225px;
     display: flex;
@@ -191,7 +195,7 @@
 }
 
 .titulo1{
-    background-color: tomato;
+    background-color: rgb(237, 109, 71);
     margin-left: 35px;
     margin-top: 35px;
     height: 30px;
@@ -215,14 +219,14 @@
 }
 
 .cuadrado2{
-    background-color: royalblue;
+    background-color: rgb(171, 224, 229);
     width: 225px;
     height: 225px;
     margin-top: 71px;
 }
 
 .cuadrado3{
-    background-color: orange;
+    background-color: rgb(255, 200, 109);
     margin-top: 71px;
     margin-left: 40px;
     width: 225px;
@@ -230,7 +234,7 @@
 }
 
 .titulo2{
-    background-color: black;
+    background-color: rgb(101, 106, 115);
     margin-left: 260px;
     margin-top: 25px;
     width: 225px;
@@ -239,7 +243,7 @@
 }
 
 .texto3{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     margin-left: 260px;
     margin-top: 20px;
     width: 225px;
@@ -247,7 +251,7 @@
 }
 
 .texto4{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     margin-left: 260px;
     margin-top: 20px;
     width: 150px;
@@ -255,7 +259,7 @@
 }
 
 .titulo3{
-    background-color: black;
+    background-color: rgb(101, 106, 115);
     margin-top: 25px;
     width: 225px;
     height: 15px;
@@ -263,14 +267,14 @@
 }
 
 .texto5{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     margin-top: 20px;
     width: 225px;
     height: 15px;
 }
 
 .texto6{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     margin-right: 75px;
     margin-top: 20px;
     width: 150px;
@@ -278,7 +282,7 @@
 }
 
 .titulo4{
-    background-color: black;
+    background-color: rgb(101, 106, 115);
     margin-left: 40px;
     margin-top: 25px;
     width: 225px;
@@ -287,7 +291,7 @@
 }
 
 .texto7{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     margin-top: 20px;
     margin-left: 40px;
     width: 225px;
@@ -295,7 +299,7 @@
 }
 
 .texto8{
-    background-color: gray;
+    background-color: rgb(204, 203, 202);
     margin-left: 40px;
     margin-top: 20px;
     width: 150px;
